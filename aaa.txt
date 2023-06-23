@@ -1,0 +1,19 @@
+npx sequelize-cli model:generate --name MenuTypes --attributes id:integer,nama:string
+
+npx sequelize-cli model:generate --name Jabatan --attributes id:integer,nama:string
+
+/Users/marcellreynaldo/Desktop/Kuliah/Semester_6/SOA/projek/src
+
+/Users/marcellreynaldo/Desktop/Kuliah/Semester 6/SOA/projek/src
+
+npx sequelize-cli db:migrate
+
+npx sequelize-cli model:generate --name Menu --attributes id:integer,nama:string,harga:integer,tipe:integer,foto:string
+
+npx sequelize-cli model:generate --name User --attributes id:integer,username:string,password:string,email:string,nama:string,no_telp:string,id_jabatan:integer
+
+npx sequelize-cli model:generate --name Booking --attributes id:integer,nama:string,tempat:string,participant:integer,email:string,no_telp:string
+
+npx sequelize-cli model:generate --name BookingMenu --attributes booking_id:integer,menu_id:integer
+
+npx sequelize-cli seed:generate --name Jabatan
